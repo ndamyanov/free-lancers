@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
+        <div className="nav-menu">
           <ul>
             <li>
               <Link to="/">Home</Link>

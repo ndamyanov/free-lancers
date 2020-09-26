@@ -17,8 +17,22 @@ const listFreelancers = mockedFreelancers.map((fr) =>
 );
     
     return(
+        <>
+        <div className="filters">
+            <div>Plumber</div>
+            <div>Builder</div>
+            <div>Painter</div>
+            <div>Cleaner</div>
+            <div>Gardener</div>
+            <div>Cooker</div>
+            <div>Electriker</div>
+            <div>Designer</div>
+            <div>Musician</div>
+            <div>Teacher</div>
+        </div>
         <div className="cards">
             {listFreelancers}
         </div>
+        </>
     )
 }

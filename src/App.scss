@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+
+  .nav-menu li {
+    display: inline;
+    padding: 2em;
+    font-weight: bold;
+  }
 }
 
 .App-logo {
@@ -48,6 +54,24 @@
   }
 }
 
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+    div {
+      border: 1px solid black;
+      padding: 0.5em;
+      margin: 1em;
+      border-radius: 7em;
+      cursor: pointer;
+    }
+
+    div:hover {
+      background-color: aliceblue;
+    }
+}
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -60,11 +84,14 @@
   border-radius: 5px;
   margin: 2em;
   width: 18%;
-  height: 20em;
     img {
       border-radius: 50%;
       width: 8em;
       height: 8em;
-      margin: 2em;
+      margin: 2em 0 0 0;
+    }
+
+    .contacts {
+      margin: -2em 0 2em 0;
     }
 }
