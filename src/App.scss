@@ -95,3 +95,42 @@
       margin: -2em 0 2em 0;
     }
 }
+
+.detailsContainer {
+      border: 1px solid rgb(119, 4, 104);
+      width: 60%;
+      margin: 0 auto;
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        margin: 3em 3em 0 3em;
+        img {
+          width: 12em;
+          height: 60%;
+        }
+        div {
+          padding: 1em 5em;
+        }
+      }
+      .info {
+        color: blue;
+        margin: 0 5em 2em;
+      }
+      textarea {
+        width: 95%;
+      }
+      button {
+        height: 3em;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        margin: 1em 0 5em 0;
+      }
+      .comments {
+      border: 1px solid rgb(119, 4, 104);
+      border-radius: 5px;
+      margin: 1em;
+      padding: 0.5em;
+      }
+}

@@ -5,6 +5,7 @@ import "./App.scss";
 import {Home} from './pages/Home';
 import {About} from './pages/About';
 import {Freelancers} from './pages/Freelancers';
+import {Details} from './pages/Detais';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route path="/freelancers">
               <Freelancers />
+            </Route>
+            <Route path="/details">
+              <Details />
             </Route>
           </Switch>
         </div>
